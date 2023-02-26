@@ -1,0 +1,66 @@
+:root {
+    /*background */
+    --soft-violet: hsl(273, 75%, 66%);
+    --soft-blue: hsl(240, 73%, 65%);
+    /*text*/
+    --very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --soft-red: hsl(14, 88%, 65%);
+    /*dividers*/
+    --light-grayish-blue: hsl(240, 5%, 91%)
+}
+
+html {
+    font-size: 12px;
+    
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(var(--soft-violet),var(--soft-blue));
+    font-family: 'Kumbh Sans';
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 750px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+}
+
+.leftside {
+    min-width: 50%;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.1rem;
+
+}
+
+.underline {
+    border-bottom: var(--light-grayish-blue) 1px solid;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 10px;}
+.attribution a { color: hsl(228, 45%, 44%); }

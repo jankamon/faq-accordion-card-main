@@ -83,6 +83,10 @@ h2 {
     left: -50px;
 }
 
+.hidden-text {
+    padding-top: 10px;
+}
+
 .hidden {
     display: none;
 }

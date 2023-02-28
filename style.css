@@ -105,6 +105,10 @@ h2 {
     height: 3%;
 }
 
+.rotated {
+    transform: rotate(180deg);
+}
+
 .attribution { font-size: 11px; text-align: center; margin-top: 10px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
